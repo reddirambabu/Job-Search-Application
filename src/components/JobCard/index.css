@@ -1,0 +1,81 @@
+.link-item {
+  text-decoration: none;
+}
+
+.list-item {
+  list-style-type: none;
+  padding: 0px;
+  color: #ffffff;
+  background-color: #4c4c4d;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 25px;
+}
+.card-logo {
+  height: 60px;
+  width: 60px;
+  margin-right: 15px;
+}
+.star {
+  color: gold;
+  margin-right: 10px;
+  font-size: 18px;
+}
+.logo-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+  color: rgb(93, 93, 253);
+}
+.card-rating-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+}
+.location-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location-employment-type-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 8px;
+}
+.location-name {
+  padding-left: 10px;
+}
+.location-icon {
+  font-size: 22px;
+}
+.description {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .location-employment-type-container {
+    width: 30%;
+  }
+}

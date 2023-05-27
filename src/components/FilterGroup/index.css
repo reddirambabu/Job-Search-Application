@@ -1,0 +1,25 @@
+.filter-list-heading {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.filter-container {
+  list-style-type: none;
+  padding-left: 8px;
+  color: #ffffff;
+}
+
+.active-employment-type {
+  background-color: rgb(162, 252, 252);
+  margin-bottom: 8px;
+  color: #3b065f;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.normal-class {
+  background-color: transparent;
+  margin-bottom: 8px;
+}
